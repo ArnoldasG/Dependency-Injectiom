@@ -2,7 +2,7 @@ package personal.dependencyinjection.sfgdi.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import personal.dependencyinjection.sfgdi.services.PetService;
+import personal.di.componentscan.PetService;
 
 @Controller
 public class PetController {

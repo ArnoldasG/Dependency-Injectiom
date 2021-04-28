@@ -1,4 +1,4 @@
-package personal.dependencyinjection.sfgdi.services;
+package personal.di.componentscan;
 
 public interface PetService {
 
