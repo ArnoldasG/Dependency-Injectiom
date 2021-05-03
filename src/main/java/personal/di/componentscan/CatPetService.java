@@ -3,7 +3,7 @@ package personal.di.componentscan;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class CatPetService implements PetService {
 
     @Override
