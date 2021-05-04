@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+      -  EN
+      -  prod
+personal:
+  username: YmlUserName
+  password: YmlPassword
+  jdbcurl: YmlUrl
+
+# In YML configuration --- means its another configuration file
+---
+spring:
+  profiles: prod
+personal:
+  username: YmlProdUserName
+  password: YmlProdPassword
+  jdbcurl: YmlProdUrl
